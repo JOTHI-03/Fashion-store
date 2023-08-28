@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:url(cont.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h2{
+    color: whitesmoke;
+    text-align: right;
+    justify-content: right;  
+}
+.if{
+    font-size: 45px;
+    margin-right: 40px;
+    padding-top: 70px;
+    padding-bottom: 28px;
+    color:pink;
+}
+.mob{
+    font-size:30px ;
+    text-align: center;
+    margin-left: 350px;
+}
+.mail{
+    font-size: 35px;
+    text-align: center;
+    margin-left: 432px;
+    color: aliceblue;
+}
+.jo{
+    text-decoration: none;
+    color: rgb(251, 140, 229);
+}
+.jo:hover{
+    color:rgb(95, 22, 251);
+}
+.insta{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 380px;
+}
+.button{
+    position:absolute;
+    font-family: cursive;
+    top: 62%;
+    left:60%;
+    transform: translate(-50px,-50p);
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.btn{
+    border: 3px solid;
+    padding: 10px 30px;
+    color:white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:pink;
+    color:rgb(10, 10, 10);
+}
